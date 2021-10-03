@@ -117,5 +117,6 @@ for (input, gt_label) in test_dataset:
   output = model(input, training=False)
   accuracy_ = accuracy_fn(gt_label, output)
   running_accuracy.append(accuracy_)
+  ###
 
 print("Test accuracy: {:.3%}".format(np.mean(running_accuracy)))
