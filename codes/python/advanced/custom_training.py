@@ -84,7 +84,7 @@ for epoch in range(NUM_EPOCHS):
   running_loss = []
   running_accuracy = []
 
-  # Training
+  # Training#
   for input, target in train_dataset:
 
     # Calculate and track graduents
